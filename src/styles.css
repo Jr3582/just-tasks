@@ -1,3 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap');
+
 @import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-serif: 'Fraunces', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-primary: #F97316;    /* vivid orange */
+  --color-secondary: #EA580C;  /* deeper burnt orange */
+  --color-tertiary: #FED7AA;   /* soft peach */
+}
+

@@ -1,1 +1,30 @@
-<p>landing works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="h-screen overflow-y-scroll overflow-x-hidden scroll-smooth snap-y snap-mandatory">
+        <div class="snap-start h-screen relative bg-gradient-to-b from-orange-400 to-white to-25%">
+            <app-header></app-header>
+            <app-hero/>
+        </div>
+        <div class="snap-start h-screen relative">
+            <app-features/>
+        </div>
+        <div class="snap-start h-screen relative">
+            <app-metrics/>   
+        </div>
+        <div class="snap-start h-screen relative">
+            <app-faq/> 
+            <app-footer/>   
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!-- generate new component with this command:-->
+<!-- ng generate component components/component-name -->
